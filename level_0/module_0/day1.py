@@ -51,3 +51,29 @@ def greet(name):
     print("Hello", name)
 
 print(greet("Xavier"))
+
+# homework
+# q1
+num = float(input("Enter a number: "))
+if num % 2 == 0:
+    print(f"{num} is even.")
+else:
+    print(f"{num} is odd.")
+
+# q2
+num = float(input("Enter a number: "))
+print(num ** 2)
+
+# q3
+for i in range(1,21):
+    print(i)
+
+counter = 1
+while counter <= 20:
+    print(counter)
+    counter += 1
+
+# q4
+def add(a,b):
+    sums = a +b
+    return sums
